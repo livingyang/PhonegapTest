@@ -4,8 +4,6 @@
         id        = "com.phonegap.example"
         version   = "1.0.0">
 
-    <!-- versionCode is optional and Android only -->
-
     <name>PhoneGap Example</name>
 
     <description>
@@ -16,4 +14,9 @@
         Hardeep Shoker 
     </author>
 
+    <preference name="phonegap-version" value="3.0.0" />
+    
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
 </widget>
